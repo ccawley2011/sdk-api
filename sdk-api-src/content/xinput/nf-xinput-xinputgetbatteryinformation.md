@@ -62,7 +62,22 @@ Index of the signed-in gamer associated with the device. Can be a value in the r
 
 ### -param devType [in]
 
-Specifies which device associated with this user index should be queried. Must be <b>BATTERY_DEVTYPE_GAMEPAD</b> or <b>BATTERY_DEVTYPE_HEADSET</b>.
+Specifies which device associated with this user index should be queried. Currently, only two values are supported:
+
+<table>
+<tr>
+<th>Constant</th>
+<th>Value</th>
+</tr>
+<tr>
+<td><b>BATTERY_DEVTYPE_GAMEPAD</b></td>
+<td>0x00</td>
+</tr>
+<tr>
+<td><b>BATTERY_DEVTYPE_HEADSET</b></td>
+<td>0x01</td>
+</tr>
+</table>
 
 ### -param pBatteryInformation [out]
 
