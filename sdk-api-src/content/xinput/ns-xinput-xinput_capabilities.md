@@ -60,17 +60,18 @@ Describes the capabilities of a connected controller. The <a href="/windows/desk
 
 ### -field Type
 
-      
-       Controller type. It must be one of the following values.
+Controller type. It must be one of the following values.
        
 
 <table>
 <tr>
+<th>Constant</th>
 <th>Value</th>
 <th>Description</th>
 </tr>
 <tr>
 <td>XINPUT_DEVTYPE_GAMEPAD</td>
+<td>0x01</td>
 <td>The device is a game controller. </td>
 </tr>
 </table>
@@ -89,28 +90,34 @@ Features of the controller.
 
 <table>
 <tr>
+<th>Constant</th>
 <th>Value</th>
 <th>Description</th>
 </tr>
 <tr>
 <td>XINPUT_CAPS_VOICE_SUPPORTED</td>
+<td>0x0004</td>
 <td>Device has an integrated voice device.</td>
 </tr>
 <tr>
 <td>XINPUT_CAPS_FFB_SUPPORTED</td>
+<td>0x0001</td>
 <td>Device supports force feedback functionality. Note that these force-feedback features beyond rumble are not currently supported through XINPUT on Windows.</td>
 </tr>
 <tr>
 <td>XINPUT_CAPS_WIRELESS</td>
+<td>0x0002</td>
 <td>Device is wireless.</td>
 </tr>
 <tr>
 <td>XINPUT_CAPS_PMD_SUPPORTED</td>
+<td>0x0008</td>
 <td>Device supports plug-in modules. Note that plug-in modules like the text input device (TID)
            are not supported currently through XINPUT on Windows.</td>
 </tr>
 <tr>
 <td>XINPUT_CAPS_NO_NAVIGATION</td>
+<td>0x0010</td>
 <td>Device lacks menu navigation buttons (START, BACK, DPAD).</td>
 </tr>
 </table>
