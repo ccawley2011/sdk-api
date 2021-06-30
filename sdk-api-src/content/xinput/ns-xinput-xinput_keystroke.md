@@ -72,19 +72,23 @@ Flags that indicate the keyboard state at the time of the input event. This memb
 
 <table>
 <tr>
+<th>Constant</th>
 <th>Value</th>
 <th>Description</th>
 </tr>
 <tr>
 <td>XINPUT_KEYSTROKE_KEYDOWN</td>
+<td>0x0001</td>
 <td>The key was pressed. </td>
 </tr>
 <tr>
 <td>XINPUT_KEYSTROKE_KEYUP</td>
+<td>0x0002</td>
 <td>The key was released. </td>
 </tr>
 <tr>
 <td>XINPUT_KEYSTROKE_REPEAT</td>
+<td>0x0004</td>
 <td>A repeat of a held key. </td>
 </tr>
 </table>
@@ -121,137 +125,170 @@ The valid virtual-key (VK_xxx) codes are defined in XInput.h. In addition to cod
 
 <table>
 <tr>
+<th>Constant</th>
 <th>Value</th>
 <th>Description</th>
 </tr>
 <tr>
 <td>VK_PAD_A</td>
+<td>0x5800</td>
 <td><b>A</b>  button </td>
 </tr>
 <tr>
 <td>VK_PAD_B</td>
+<td>0x5801</td>
 <td><b>B</b> button </td>
 </tr>
 <tr>
 <td>VK_PAD_X</td>
+<td>0x5802</td>
 <td><b>X</b> button </td>
 </tr>
 <tr>
 <td>VK_PAD_Y</td>
+<td>0x5803</td>
 <td><b>Y</b> button </td>
 </tr>
 <tr>
 <td>VK_PAD_RSHOULDER</td>
+<td>0x5804</td>
 <td>Right shoulder button </td>
 </tr>
 <tr>
 <td>VK_PAD_LSHOULDER</td>
+<td>0x5805</td>
 <td>Left shoulder button </td>
 </tr>
 <tr>
 <td>VK_PAD_LTRIGGER</td>
+<td>0x5806</td>
 <td>Left trigger </td>
 </tr>
 <tr>
 <td>VK_PAD_RTRIGGER</td>
+<td>0x5807</td>
 <td>Right trigger </td>
 </tr>
 <tr>
 <td>VK_PAD_DPAD_UP</td>
+<td>0x5810</td>
 <td>Directional pad up </td>
 </tr>
 <tr>
 <td>VK_PAD_DPAD_DOWN</td>
+<td>0x5811</td>
 <td>Directional pad down </td>
 </tr>
 <tr>
 <td>VK_PAD_DPAD_LEFT</td>
+<td>0x5812</td>
 <td>Directional pad left </td>
 </tr>
 <tr>
 <td>VK_PAD_DPAD_RIGHT</td>
+<td>0x5813</td>
 <td>Directional pad right </td>
 </tr>
 <tr>
 <td>VK_PAD_START</td>
+<td>0x5814</td>
 <td><b>START</b> button </td>
 </tr>
 <tr>
 <td>VK_PAD_BACK</td>
+<td>0x5815</td>
 <td><b>BACK</b> button </td>
 </tr>
 <tr>
 <td>VK_PAD_LTHUMB_PRESS</td>
+<td>0x5816</td>
 <td>Left thumbstick click </td>
 </tr>
 <tr>
 <td>VK_PAD_RTHUMB_PRESS</td>
+<td>0x5817</td>
 <td>Right thumbstick click </td>
 </tr>
 <tr>
 <td>VK_PAD_LTHUMB_UP</td>
+<td>0x5820</td>
 <td>Left thumbstick up </td>
 </tr>
 <tr>
 <td>VK_PAD_LTHUMB_DOWN</td>
+<td>0x5821</td>
 <td>Left thumbstick down </td>
 </tr>
 <tr>
 <td>VK_PAD_LTHUMB_RIGHT</td>
+<td>0x5822</td>
 <td>Left thumbstick right </td>
 </tr>
 <tr>
 <td>VK_PAD_LTHUMB_LEFT</td>
+<td>0x5823</td>
 <td>Left thumbstick left </td>
 </tr>
 <tr>
 <td>VK_PAD_LTHUMB_UPLEFT</td>
+<td>0x5824</td>
 <td>Left thumbstick up and left </td>
 </tr>
 <tr>
 <td>VK_PAD_LTHUMB_UPRIGHT</td>
+<td>0x5825</td>
 <td>Left thumbstick up and right </td>
 </tr>
 <tr>
 <td>VK_PAD_LTHUMB_DOWNRIGHT</td>
+<td>0x5826</td>
 <td>Left thumbstick down and right </td>
 </tr>
 <tr>
 <td>VK_PAD_LTHUMB_DOWNLEFT</td>
+<td>0x5827</td>
 <td>Left thumbstick down and left </td>
 </tr>
 <tr>
 <td>VK_PAD_RTHUMB_UP</td>
+<td>0x5830</td>
 <td>Right thumbstick up </td>
 </tr>
 <tr>
 <td>VK_PAD_RTHUMB_DOWN</td>
+<td>0x5831</td>
 <td>Right thumbstick down </td>
 </tr>
 <tr>
 <td>VK_PAD_RTHUMB_RIGHT</td>
+<td>0x5832</td>
 <td>Right thumbstick right </td>
 </tr>
 <tr>
 <td>VK_PAD_RTHUMB_LEFT</td>
+<td>0x5833</td>
 <td>Right thumbstick left </td>
 </tr>
 <tr>
 <td>VK_PAD_RTHUMB_UPLEFT</td>
+<td>0x5834</td>
 <td>Right thumbstick up and left </td>
 </tr>
 <tr>
 <td>VK_PAD_RTHUMB_UPRIGHT</td>
+<td>0x5835</td>
 <td>Right thumbstick up and right </td>
 </tr>
 <tr>
 <td>VK_PAD_RTHUMB_DOWNRIGHT</td>
+<td>0x5836</td>
 <td>Right thumbstick down and right </td>
 </tr>
 <tr>
 <td>VK_PAD_RTHUMB_DOWNLEFT</td>
+<td>0x5837</td>
 <td>Right thumbstick down and left </td>
-</tr>
+</tr>        
 </table>
 
 ## -see-also
