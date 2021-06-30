@@ -65,27 +65,33 @@ The type of battery. <i>BatteryType</i> will be one of the following values.
 
 <table>
 <tr>
+<th>Constant</th>
 <th>Value</th>
 <th>Description</th>
 </tr>
 <tr>
 <td>BATTERY_TYPE_DISCONNECTED</td>
+<td>0x00</td>
 <td>The device is not connected. </td>
 </tr>
 <tr>
 <td>BATTERY_TYPE_WIRED</td>
+<td>0x01</td>
 <td>The device is a wired device and does not have a battery. </td>
 </tr>
 <tr>
 <td>BATTERY_TYPE_ALKALINE</td>
+<td>0x02</td>
 <td>The device has an alkaline battery. </td>
 </tr>
 <tr>
 <td>BATTERY_TYPE_NIMH</td>
+<td>0x03</td>
 <td>The device has a nickel metal hydride battery. </td>
 </tr>
 <tr>
 <td>BATTERY_TYPE_UNKNOWN</td>
+<td>0xFF</td>
 <td>The device has an unknown  battery type. </td>
 </tr>
 </table>
@@ -97,19 +103,24 @@ The charge state of the battery. This value is only valid for wireless devices w
 
 <table>
 <tr>
+<th>Constant</th>
 <th>Value</th>
 </tr>
 <tr>
 <td>BATTERY_LEVEL_EMPTY</td>
+<td>0x00</td>
 </tr>
 <tr>
 <td>BATTERY_LEVEL_LOW</td>
+<td>0x01</td>
 </tr>
 <tr>
 <td>BATTERY_LEVEL_MEDIUM</td>
+<td>0x02</td>
 </tr>
 <tr>
 <td>BATTERY_LEVEL_FULL</td>
+<td>0x03</td>
 </tr>
 </table>
 
